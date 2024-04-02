@@ -41,7 +41,7 @@ To get started with this project, follow these steps:
 
 4. **Start the server**:
    ```
-   npm start
+   node app.js
    ```
 
 5. **Access the application**:
