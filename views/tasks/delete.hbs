@@ -1,0 +1,5 @@
+<h1 class="mb-4">Delete Task</h1>
+<p class="mb-4">Are you sure you want to delete the task "{{task.title}}"?</p>
+<form action="/tasks/delete/{{task._id}}" method="POST">
+  <button type="submit" class="btn btn-danger">Delete</button>
+</form>
